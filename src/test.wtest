@@ -1,0 +1,17 @@
+import rodados.*
+
+test "La velocidad maxima de los ChevroletCorsa es de 150" {
+	const unCorsa = new ChevroletCorsa (color = "rojo")
+	assert.equals (150,unCorsa.velocidadMaxima())
+}
+
+test "El peso de los ChevroletCorsa es de 1300" {
+	const unCorsa = new ChevroletCorsa (color = "rojo")
+	assert.equals (1300,unCorsa.peso())
+}
+
+test "La capacidad maxima de los ChevroletCorsa es de 4" {
+	const unCorsa = new ChevroletCorsa (color = "rojo")
+	assert.equals (4,unCorsa.capacidad())
+}
+
